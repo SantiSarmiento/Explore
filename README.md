@@ -8,15 +8,7 @@ Explore es aplicacin web una tienda de juguetes eroticos
 
 Aplicacion web desarrollada de forma grupal en una semana desarrollada como parte del programa de programacion web Full Stack MERN realizado en MindHub, siguiendo buenas prácticas y metodologias ágiles para la elaboracion de la misma.
 Podran ver la aplicacion web en: https://explore-2021.herokuapp.com/
-# Comenzando  🚀
-```
-# Instalar dependencias para el cliente
-npm install
 
-# Ejecutar
-npm start
-
-```
 
 # Construido con 🛠️
 * [React](https://reactjs.org/) - Libreria de Frontend
