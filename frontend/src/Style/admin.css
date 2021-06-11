@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.adminContainer{
+    background-image: url("http://tingarciadg.com/wp-content/uploads/2021/05/pexels-sameera-ganegoda-2234783-scaled.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4vh 0;
+}
+
+.adminFrom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    border-radius: 5px;
+}
+
+.adminFrom p{
+    color: white;
+}
+
+@media (max-width: 800px){
+    .adminFrom{
+        width: 75%;
+    }
+}
+@media (max-width: 600px){
+    .adminFrom{
+        width: 85%;
+    }
+}
+
+.adminFrom h2{
+    margin: 2vh ;
+}
+
+small {
+    color: red;
+    font-weight: 600;
+    opacity: 1;
+
+}
+
+.adminFormInputs{
+    border: none;
+    background: none;
+    border: 2px solid silver;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+    margin: 1vh;
+    letter-spacing: 1px;
+    font-size: medium;
+    transition: all .2s;
+}
+
+.adminFormInputs:hover{
+    border: 2px solid black;
+}
+
+.adminFormInputs:focus{
+    border: 2px solid hsl(302, 32%, 58%);
+}
+
+.adminFormInputsNumber{
+    border: none;
+    background: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 5px;
+    width: 50%;
+    margin: 2vh;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+
+.adminButton{
+    margin: 1vh 0;
+    height: 5vh;
+    border: none;
+    background: linear-gradient(140deg,var(--purple),var(--pink));
+    color: white;
+    font-weight: bold;
+    border-radius: 2vh;
+    font-size: large;
+    padding: 0 1.4rem;
+    transition: all .4s;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.rowInputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rowInputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rowInputs div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.adminBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 3vh 0;
+}
+
+.tags-input {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+    padding: 1vh;
+    width: 90%;
+    margin: 2vh 0;
+	border-radius: 6px;
+    border: 2px solid silver;
+    transition: all .2s;
+}
+
+.tags-input-edit {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+    padding: 1vh;
+    width: 100%;
+	border-radius: 6px;
+    border: 2px solid silver;
+    transition: all .2s;
+}
+
+.tags-input:hover{
+    border: 2px solid black;
+}
+
+.tags-input:focus{
+    border: 2px solid hsl(302, 32%, 58%);
+}
+
+
+#tags {
+	display: flex;
+	flex-wrap: wrap;
+}
+ul {
+    margin-bottom: 0;
+}
+
+.tag {
+	width: auto;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding: 0 8px;
+	font-size: 14px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 8px 8px 8px 8px;
+	background: hsl(216, 100%, 50%);
+    font-size: 1rem;
+}
+.tag-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 8px;
+    color: #0052cc;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.newCategoryInput{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    margin-bottom: 8px;
+}
+
+.imagesForEdit{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.inputContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    position: relative;
+    top: 12px;
+    color: rgb(0, 0, 0);
+}
+.inputContainer label{
+    width: 90%;
+}
+
+/* EDIT PRODUCTS */
+
+.editProductsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 1vh;
+}
+
+.productsContainerimportant{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.productForEdit{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: ghostwhite;
+    margin: 2vh 2vh;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: all 0.4s; 
+}
+
+.productForEdit:hover{
+    transform: scale(1.02);
+}
+
+.productForEditImg{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+
+.productNameContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.productNameContainer h4{
+    text-align: center;
+    color: black;
+}
+.productNameContainer h4:hover{
+    border-bottom: none;
+}
+
+
+@media(max-width: 800px){
+    .productForEdit{
+        width: 40%;
+    }
+}
+@media(max-width: 600px){
+    .productForEdit{
+        width: 70%;
+    }
+}
+
+.edittingProductContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    padding-bottom: 3vh;
+}
+
+.productEditContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.productImgCover{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 6px;
+}
+.productEditImg{
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 1vh;
+}
+
+.editImgInput{
+    display: flex;
+    width: 100%;
+}
+.editImgInput input{
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+.editInput{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid silver;
+    border-radius: 6px;
+}
+
+.editInput input{
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 2vh;
+    margin: 1vh 0;
+    padding: 5px;
+}
+
+
+.editInput textarea{
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    min-height: 10vh;
+}
+
+
+.material-icons{
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.shortInputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5vh;
+    border: 2px solid silver ;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.shortInputs p{
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.shortInputs input{
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid silver;
+    width: auto;
+    margin: 0 2vh;
+    flex: 1;
+}
+
+.shortsInputsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vh 0;
+}
+
+
+
+@media(max-width: 1000px){
+    .productEditContainer{
+        width: 80%;
+    }
+}
+@media(max-width: 700px){
+    .productEditContainer{
+        width: 90%;
+    }
+}
+@media(max-width: 600px){
+    .shortsInputsContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .shortInputs input{
+        margin: 2vh 2vh;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.goBackAdmin{
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 1vh;
+}
+.goBackAdmin:hover{
+    color: black;
+    background-color: rgb(82, 82, 82);
+    border-bottom: none;
+}
+
+.editNameInput{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}

@@ -1,0 +1,550 @@
+/* Hero */
+
+#video_hero {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  z-index: -1000;
+  overflow: hidden;
+}
+.contenido {
+    width: 100%;
+     height: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: brightness(0.5);
+    color: white;
+}
+@media (max-width: 1000px){
+    .contenido{
+        height: 45vh;
+    }
+}
+.titleHero{
+    font-family: "Montserrat";
+    font-size: 4.5rem;
+}
+
+
+.subTitleHero{
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.callToActionHome{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    width: 7rem;
+    
+}
+
+/* Contenct carrousel */
+
+.imgLogoContent{
+    width: 10vw; 
+}
+
+.containerCarrousel{
+    overflow: hidden;
+}
+
+.titleSliderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleSlider{
+    margin-top: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13vw;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    z-index: 2;
+    font-weight: bold;
+    color: white;
+}
+@media (max-width: 900px){
+    .titleSlider{
+        margin-top: 66vh;
+        font-size: 15vw;
+    }
+}
+@media (max-width: 600px){
+    .titleSlider{
+        margin-top: 96vh;
+        font-size: 15vw;
+    }
+}
+
+.contentSliders{
+    width: 80%;
+/*     background-color: teal; */
+    margin-bottom: 2vw;
+}
+
+.contentSliders > *{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentSliderTitle{
+    font-size: 30px;
+    font-family: "Montserrat";
+    margin-bottom: 1vh;
+}
+
+.contentSliderButton{
+    color: white;
+    background-color: darkgray;
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    border: 0.15rem solid darkgray;
+    font-family: "Montserrat";
+    display: inline-block;
+    color: darkgray;
+    background-color: white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1.337rem;
+    padding-bottom: 1.337rem;
+    line-height: 1;
+    height: auto;
+    white-space: unset;
+    transition: margin-top 0.2s;
+}
+
+.contentSliderButton:hover{
+    margin-top: 5px;
+    opacity: 85%;
+}
+
+.slideOne{
+
+    background: url("http://tingarciadg.com/wp-content/uploads/2021/06/lubri.png"),linear-gradient(0deg
+    ,#63cae0 0,#0f84ea 100%);
+    background-position: center;
+     background-size: cover ;  
+     background-repeat: no-repeat;
+    height: 42vw;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+}
+
+.slideTwo{
+    background: url("https://sexplore.s3.eu-west-2.amazonaws.com/shopify/homepage-4-category/cock-rings.png"),linear-gradient(0deg,#f3a900 0,#ff7615 100%);
+     background-position: center;
+      background-size: cover ;  
+      background-repeat: no-repeat;
+    height: 42vw;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+}
+
+.slideThree{
+    background: url("https://sexplore.s3.eu-west-2.amazonaws.com/shopify/homepage-4-category/clitoral.png"),linear-gradient(0deg,#f54a5d 0,#671e6d 100%);
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;  
+    height: 42vw;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+}
+
+.slideFor{
+   background: url("https://sexplore.s3.eu-west-2.amazonaws.com/shopify/homepage-4-category/prostate-massager.png"),linear-gradient(0deg,#8ccfde 0,#03b583 100%);
+    background-position: center;
+    background-size: cover ;  
+    background-repeat: no-repeat;
+   height: 42vw;
+   display: flex !important;
+   align-items: flex-end !important;
+   justify-content: center !important;
+}
+
+.slideFive{
+    background: url("http://tingarciadg.com/wp-content/uploads/2021/06/wewq.png"),linear-gradient(0deg,#0c6b80 0,#d22c50 100%);
+    background-position: center;
+    background-size: cover ;  
+    background-repeat: no-repeat;
+    height: 42vw;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+    background-repeat: no-repeat;
+}
+
+.slideSix{
+    background: url("http://tingarciadg.com/wp-content/uploads/2021/06/wewq.png"),linear-gradient(0deg,#0c6b80 0,#d22c50 100%);
+    background-position: center;
+    background-size: cover ;  
+    background-repeat: no-repeat;
+    height: 42vw;
+    display: flex !important;
+    align-items: flex-end !important;
+    justify-content: center !important;
+}
+
+
+@media (max-width: 900px){
+    .slideOne, .slideTwo, .slideThree, .slideFor, .slideFive, .slideSix{
+        height: 80vh;
+    }
+}
+@media (max-width: 600px){
+    .slideOne, .slideTwo, .slideThree, .slideFor, .slideFive, .slideSix{
+        height: 100vh;
+    }
+}
+
+.titleContent{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.textContent{
+    font-family: 'Montserrat';
+}
+/* Card Product */
+
+.containerImgHome{
+    background-image: url("http://baravdg.com/wp-content/uploads/2021/05/Capture.jpg");
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.containerTextAbout{
+    width: 41%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerTextAbout p{
+    text-align: center;
+}
+
+.containerAboutUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2f2f2;
+    height: 85vh;
+}
+
+@media (max-width: 750px){
+    .containerAboutUs{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .containerImgHome{
+        height: 40vh;
+        width: 100%;
+        background-size: contain;
+    }
+    .containerTextAbout{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.productsListHome{
+    margin-top: 2vw;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.containerCardProduct{
+    box-shadow: rgb(0 0 0 / 23%) 2px 2px 10px;
+    width: 26vw;
+    margin: 1vw;
+
+}
+
+.imgProductHome{
+    background-color:#F2F2F2;
+}
+
+.imgProductHome > img{
+ width: 100%;
+}
+
+.btnCardProduct{
+    background-color: red;
+}
+
+.titleContainerProducts{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleContainerProducts > h2 {
+    font-size: 3rem;
+   font-family: 'Montserrat', sans-serif;
+}
+.titleProductHome{
+    font-family: 'Dancing Script', cursive;
+}
+.titleProductPrecie{
+   font-family: 'Montserrat', sans-serif;
+}
+/* Container Icon Home */
+
+.containerIconsHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.boxTextAndIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 4vh;
+}
+
+.boxTextAndIcon > i {
+    background-color: var(--pink);
+    background-image: linear-gradient(140deg,var(--purple),var(--pink));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    margin-bottom: .5em;
+    font-size: 2.5rem;
+}
+
+.boxTextAndIcon > h2{
+     font-family: 'Montserrat';
+     font-size: 1.5rem;
+     font-weight: bold;
+}
+.boxTextAndIcon > p{
+     font-family: 'Montserrat';
+}
+
+/* acordion */
+
+section {
+    width: 100%;
+     min-height: 11vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  
+  .accordion-item{
+    background-color: white;
+    border-radius: .4rem;
+  }
+  
+  .accordion-item hr{
+    border: 1px solid rgba(65, 34, 34, 0.5);
+    margin:0
+  }
+  
+  .accordion-link{
+    font-size: 1.6rem;
+    color: black;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none !important;
+  }
+  
+  .accordion-link h3{
+    font-weight:500;
+    font-size: 17px;
+  }
+  
+  .accordion-link i{
+    color: black;
+    padding: .5rem;
+  }
+  
+  .accordion-link ul{
+    display:flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-left: 25px;
+  }
+  
+  .accordion-link li{
+    font-size: 10px;
+    color: black;
+    padding: 0 0 1px 5px;
+  }
+  
+  .accordion-link div{
+    display: flex;
+  }
+  
+  .accordion-link .ion-md-arrow-down{
+    display: none;
+  }
+  
+  .answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    transition: max-height 650ms;
+  }
+  
+  .answer p{
+    color: black;
+    font-size: 15px;
+  }
+  .accordion-item:target .answer{
+    max-height: 20rem;
+  }
+  
+  .accordion-item:target .accordion-link .ion-md-arrow-forward{
+    display: none
+  }
+  
+  .accordion-item:target .accordion-link .ion-md-arrow-down{
+    display: block;
+  }
+
+  .imageContainerTop, .imageContainerBot {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+  }
+
+    
+    .imageContainerTop > *{
+        background-color: brown;
+        height: 100%;
+        width: 50%;
+    }
+    
+    .imageContainerBot > *{
+        background-color: brown;
+        height: 100%;
+        width: 50%;
+    }
+    
+    .infoTop, .infoBot{
+        background-color: palevioletred;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .imgTop{
+        background-image: url("https://sexplore.s3.eu-west-2.amazonaws.com/shopify/blog-images/toys-together.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+    
+    .imgBot{
+        background-image: url("https://sexplore.s3.eu-west-2.amazonaws.com/shopify/blog-images/three-zebras.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+    }
+
+    @media (max-width: 700px){
+      .imageContainerTop, .imageContainerBot {
+          display: flex;
+          flex-direction: column;
+          height: auto;
+      }
+      .imageContainerBot{
+          flex-direction: column-reverse;
+      }
+      .imgBot, .imgTop{
+          width: 100%;
+          height: 70vh;
+      }
+      .infoTop, .infoBot{
+          width: 100%;
+          text-align: center;
+          height: 40vh;
+      }
+    }
+
+.infoTop > div{
+    color: white;
+    margin: 4vw 4vw 4vw 4vw;
+}
+
+.infoTop > div > h2{
+    margin-bottom: 5vh;
+    font-size: 3.5vw;
+    font-family: 'Montserrat';
+}
+
+.infoBot > div{
+    color: white;
+    margin: 4vw 4vw 4vw 4vw;
+}
+
+.infoBot > div > h2{
+    margin-bottom: 5vh;
+    font-size: 3.5vw;
+    font-family: 'Montserrat';
+}
+
+.infoTop, .imgTop, .infoBot, .imgBot{
+    margin: 0.01px 0.01px 0.01px 0.01px;
+}
+
+.container > * {
+    font-family: 'Montserrat';
+}
